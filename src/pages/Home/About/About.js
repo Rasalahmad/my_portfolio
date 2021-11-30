@@ -1,16 +1,22 @@
 import { Grid, Box } from '@mui/material';
-import React from 'react';
+import React, { useEffect } from 'react';
+import Education from '../Education/Education';
 import Skills from '../Skills/Skills';
 import './About.css'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const About = () => {
+    useEffect(() => {
+        Aos.init({ duration: '1200' })
+    }, [])
     return (
         <Box sx={{ mt: '50px', width: '90%', m: 'auto' }}>
             <h1 className="text-center my-5">ABOUT ME</h1>
             <Grid container spacing={2}>
                 <Grid item xs={12} sm={12} md={6}>
                     <h3 className="my-3">PERSONAL INFO</h3>
-                    <Grid container spacing={2}>
+                    <Grid container spacing={2} data-aos="fade-up">
                         <Grid item xs={6}>
                             <p>Name: Rasal Ahmad</p>
                             <p>Age : 21</p>
@@ -26,8 +32,8 @@ const About = () => {
                     </Grid>
                 </Grid>
                 <Grid item xs={12} sm={12} md={6}>
-                    <Grid container spacing={2}>
-                        <Grid item xs={4} sm={4} md={6}>
+                    <Grid container spacing={2} data-aos="fade-up">
+                        <Grid item xs={4} sm={4} md={6} >
                             <Box className="experience-container">
                                 <h1>1+</h1>
                                 <p>Year experience</p>
@@ -55,6 +61,7 @@ const About = () => {
                 </Grid>
             </Grid>
             <Skills></Skills>
+            <Education></Education>
         </Box>
     );
 };

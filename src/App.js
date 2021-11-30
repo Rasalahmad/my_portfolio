@@ -4,6 +4,7 @@ import About from './pages/Home/About/About';
 import Contact from './pages/Home/Contact/Contact';
 import Home from './pages/Home/Home/Home';
 import Navbar from './pages/Home/Navbar/Navbar';
+import ProjectDetails from './pages/Home/ProjectDetails/ProjectDetails';
 import Projects from './pages/Home/Projects/Projects';
 
 function App() {
@@ -26,6 +27,9 @@ function App() {
           </Route>
           <Route path='/contact'>
             <Contact></Contact>
+          </Route>
+          <Route path='/project/:id'>
+            <ProjectDetails></ProjectDetails>
           </Route>
         </Switch>
       </BrowserRouter>

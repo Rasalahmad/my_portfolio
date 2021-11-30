@@ -7,7 +7,7 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link, NavLink } from 'react-router-dom';
 import { makeStyles } from '@mui/styles';
-import { useTheme } from '@mui/material';
+import { useTheme, Typography } from '@mui/material';
 import Drawer from '@mui/material/Drawer';
 import List from '@mui/material/List';
 import Divider from '@mui/material/Divider';
@@ -73,8 +73,11 @@ export default function Navbar() {
     return (
         <>
             <Box sx={{ flexGrow: 1 }}>
-                <AppBar position="static">
+                <AppBar position="static" style={{ backgroundColor: 'black' }}>
                     <Toolbar>
+                        <Typography variant="h6" component="div" sx={{ flexGrow: 1, }}>
+                            RASAL
+                        </Typography>
                         <IconButton
                             size="large"
                             edge="start"

@@ -4,7 +4,8 @@ import React from 'react';
 import SaveIcon from '@mui/icons-material/Save';
 import resume from '../../../resume.pdf';
 import Typewriter from 'typewriter-effect';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Banner = () => {
     return (
@@ -29,9 +30,10 @@ const Banner = () => {
                     <a href={resume} download ><Button variant="contained" startIcon={<SaveIcon />}>
                         Download CV
                     </Button></a>
-                    <Button sx={{ mx: '10px', background: 'deeppink' }} variant="contained" startIcon={<SaveIcon />} >
-                        About Me
-                    </Button>
+                    <a href="#contact">
+                        <Button sx={{ mx: '10px', background: 'deeppink' }} variant="contained" startIcon={<SaveIcon />} >
+                            Hire Me
+                        </Button></a>
                 </Grid>
             </Grid>
         </Box>

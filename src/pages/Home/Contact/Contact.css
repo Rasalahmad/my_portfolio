@@ -2,6 +2,10 @@
   color: deeppink;
 }
 .form-field {
-  background-color: wheat;
+  background-color: white;
   padding-right: 20px;
+  border-radius: 50%;
+  box-shadow: 0 -5px 3px -3px black, 0 5px 3px -3px black;
+  color: white !important;
+  border-radius: 30px;
 }

@@ -1,0 +1,6 @@
+.cardContainer {
+  border: 1px solid white;
+}
+.cardContainer:hover {
+  box-shadow: 10px 10px 10px white;
+}
