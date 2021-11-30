@@ -20,9 +20,6 @@ const Footer = () => {
                         <i className="fas fa-map-marker"></i> VIP Road, Bandarban Saadar, Bandarban, Bangladesh <br />
                         <i className="fas fa-envelope"></i> rasalahmadsit@gmail.com
                     </Typography>
-                    {/* <Typography variant="h6" sx={{ fontWeight: 'bold', mt: '20px' }} component="div">
-                        CONNECT WITH SOCIAL MEDIA
-                    </Typography> */}
                     <Typography variant="body1" component="div">
                         <i className="fab fa-facebook"></i>
                         <i className="fab fa-twitter"></i>

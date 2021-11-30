@@ -4,8 +4,7 @@ import React from 'react';
 import SaveIcon from '@mui/icons-material/Save';
 import resume from '../../../resume.pdf';
 import Typewriter from 'typewriter-effect';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import './Banner.css';
 
 const Banner = () => {
     return (
@@ -27,10 +26,10 @@ const Banner = () => {
                     </p>
                     </h3>
                     <p>Develop amazing web and app experiences with tips and advice from the experts at Web.Dev. Keep your users engaged with the latest web development capabilities! Website Performance. Website Visibility. Modern Web Techniques. Network Resilience Tips.</p>
-                    <a href={resume} download ><Button variant="contained" startIcon={<SaveIcon />}>
+                    <a className="buttons" href={resume} download ><Button variant="contained" startIcon={<SaveIcon />}>
                         Download CV
                     </Button></a>
-                    <a href="#contact">
+                    <a className="buttons" href="#contact">
                         <Button sx={{ mx: '10px', background: 'deeppink' }} variant="contained" startIcon={<SaveIcon />} >
                             Hire Me
                         </Button></a>

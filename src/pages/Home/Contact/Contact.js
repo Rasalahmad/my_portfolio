@@ -37,48 +37,50 @@ const Contact = () => {
     }, [])
 
     return (
-        <Box sx={{ width: '90%', m: 'auto' }} id='contact'>
-            <h1 className="text-center" style={{ margin: '100px 0px' }}>CONTACT ME</h1>
-            <Grid container spacing={5}>
-                <Grid item xs={12} sm={12} md={6} data-aos="fade-right">
-                    <h3>GET IN TOUCH</h3>
-                    <p>Hello! This is Rasal Ahmad and I am a Junior Full Stack Web Developer. You can contact me with this information Hello! This is Rasal Ahmad and I am a Junior Full Stack Web Developer. You can contact me with this information</p>
-                    <h4><i className="fas fa-map-marker-alt"></i> Address </h4>
-                    <p>Bandarban, Bangladesh</p>
-                    <h4><i className="fas fa-envelope"></i> Email </h4>
-                    <p>rasalahmadsit@gmail.com</p>
-                    <h4><i className="fas fa-phone"></i> Phone </h4>
-                    <p>+8801625605340</p>
+        <Box className="contact-container">
+            <Box sx={{ width: '90%', m: 'auto' }} id='contact'>
+                <h1 className="text-center" style={{ margin: '100px 0px' }}>CONTACT ME</h1>
+                <Grid container spacing={5}>
+                    <Grid item xs={12} sm={12} md={6} data-aos="fade-right">
+                        <h3>GET IN TOUCH</h3>
+                        <p>Hello! This is Rasal Ahmad and I am a Junior Full Stack Web Developer. You can contact me with this information Hello! This is Rasal Ahmad and I am a Junior Full Stack Web Developer. You can contact me with this information</p>
+                        <h4><i className="fas fa-map-marker-alt"></i> Address </h4>
+                        <p>Bandarban, Bangladesh</p>
+                        <h4><i className="fas fa-envelope"></i> Email </h4>
+                        <p>rasalahmadsit@gmail.com</p>
+                        <h4><i className="fas fa-phone"></i> Phone </h4>
+                        <p>+8801625605340</p>
+                    </Grid>
+                    <Grid item xs={12} sm={12} md={6} className="form-field mt-5" data-aos="fade-left">
+                        <form onSubmit={handleSubmit}>
+                            <TextField
+                                sx={{ m: '10px', width: '45%' }}
+                                label="Name"
+                                placeholder="Your Name"
+                                type="text"
+                                name="name"
+                            />
+                            <TextField
+                                sx={{ my: '10px', width: '50%' }}
+                                label="Email"
+                                type="email"
+                                name="user_email"
+                            /><br />
+                            <TextField
+                                sx={{ m: '10px', width: '97%' }}
+                                id="outlined-multiline-static"
+                                label="Message"
+                                multiline
+                                rows={4}
+                                name="message"
+                            />
+                            <Button sx={{ width: '97%', m: '10px' }} variant="contained" type="submit" endIcon={<SendIcon />}>
+                                SEND MESSAGE
+                            </Button>
+                        </form>
+                    </Grid>
                 </Grid>
-                <Grid item xs={12} sm={12} md={6} className="form-field mt-5" data-aos="fade-left">
-                    <form onSubmit={handleSubmit}>
-                        <TextField
-                            sx={{ m: '10px', width: '45%' }}
-                            label="Name"
-                            placeholder="Your Name"
-                            type="text"
-                            name="name"
-                        />
-                        <TextField
-                            sx={{ my: '10px', width: '50%' }}
-                            label="Email"
-                            type="email"
-                            name="user_email"
-                        /><br />
-                        <TextField
-                            sx={{ m: '10px', width: '97%' }}
-                            id="outlined-multiline-static"
-                            label="Message"
-                            multiline
-                            rows={4}
-                            name="message"
-                        />
-                        <Button sx={{ width: '97%', m: '10px' }} variant="contained" type="submit" endIcon={<SendIcon />}>
-                            SEND MESSAGE
-                        </Button>
-                    </form>
-                </Grid>
-            </Grid>
+            </Box>
         </Box>
     );
 };
