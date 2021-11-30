@@ -33,19 +33,19 @@
   },
   {
     "id": "102",
-    "name": "Auto-Pro Luxurious Car",
-    "img": "https://i.ibb.co/dQ2G0nT/autopro.png",
-    "ss1": "https://i.ibb.co/CVzysyc/ss2.png",
-    "ss2": "https://i.ibb.co/McSwZRK/ss3.png",
-    "ss3": "https://i.ibb.co/bHZDcJ0/ss1.png",
-    "description": "This is a car selling website named AUTOPRO. In This website you can purchase world best cars with best price.",
+    "name": "Trip Today",
+    "img": "https://i.ibb.co/zGV8LvM/solo1.png",
+    "ss1": "https://i.ibb.co/KbCWfTy/solo2.png",
+    "ss2": "https://i.ibb.co/kgcY0cG/solo3.png",
+    "ss3": "https://i.ibb.co/VV81NMH/solo4.png",
+    "description": "A Full Stack responsive website for mobile and desktop with React. All data is loaded by MongoDB.",
     "feature": {
       "ft1": "Have a dashboard where based on the user and admin role the menu will change",
-      "ft2": "After login or creating an account a user can place an order, manage his orders and post a review",
-      "ft3": "However, an admin can manage all orders, add or remove a product and make a new admin. Admin email : admin@admin.com and password: 123456",
-      "ft4": "User can buy a product form this site providing his/her address.",
-      "ft5": "Have different functionality for both user and admin",
-      "ft6": "User also can see his/her all order in my order page"
+      "ft2": "Users can book any service, can update a product status, and delete their own order.",
+      "ft3": "Google Firebase Authentication system has been added for user authentication.",
+      "ft4": "If user want o book our plan he/she must make an account in website. if user have already an account he/she can directly login.",
+      "ft5": "After booking user can see his/her booking list which user already book and user can cencel his/her booking if you want.",
+      "ft6": "If user book a plan it will go to pending and if admin approved this plan will be ready to go"
     },
     "technology": {
       "t1": "React",
@@ -59,25 +59,25 @@
       "t9": "React Hook Form",
       "t10": ""
     },
-    "liveSite": "https://auto-pro-luxurious-car.web.app/",
-    "clientLink": "https://github.com/Rasalahmad/Auto-Pro-car-service-client-site",
-    "serverLink": "https://github.com/Rasalahmad/Auto-Pro-server-site"
+    "liveSite": "https://solo-travel-96100.web.app/",
+    "clientLink": "https://github.com/Rasalahmad/Solo-travel-client",
+    "serverLink": "https://github.com/Rasalahmad/Solo-travel-server"
   },
   {
     "id": "103",
-    "name": "Auto-Pro Luxurious Car",
-    "img": "https://i.ibb.co/dQ2G0nT/autopro.png",
-    "ss1": "https://i.ibb.co/CVzysyc/ss2.png",
-    "ss2": "https://i.ibb.co/McSwZRK/ss3.png",
-    "ss3": "https://i.ibb.co/bHZDcJ0/ss1.png",
-    "description": "This is a car selling website named AUTOPRO. In This website you can purchase world best cars with best price.",
+    "name": "Paharica Health Care",
+    "img": "https://i.ibb.co/hFLD8Qs/hos1.png",
+    "ss1": "https://i.ibb.co/P1dJJJC/hos2.png",
+    "ss2": "https://i.ibb.co/Jj8LrbG/hos4.png",
+    "ss3": "https://i.ibb.co/NZMJ93y/hos3.png",
+    "description": "This a health care related website where a patient take a service and can see the doctor list",
     "feature": {
-      "ft1": "Have a dashboard where based on the user and admin role the menu will change",
-      "ft2": "After login or creating an account a user can place an order, manage his orders and post a review",
-      "ft3": "However, an admin can manage all orders, add or remove a product and make a new admin. Admin email : admin@admin.com and password: 123456",
-      "ft4": "User can buy a product form this site providing his/her address.",
-      "ft5": "Have different functionality for both user and admin",
-      "ft6": "User also can see his/her all order in my order page"
+      "ft1": "This is a health care related website.",
+      "ft2": "Users can sign in with Google or Github as well as can register a new account.",
+      "ft3": "React Router made the site more dynamic.",
+      "ft4": "Users can see more about an article from the home page.",
+      "ft5": "In this website user can know about our medical and other facilitics that we are provided",
+      "ft6": "User can take our service easily and for this first of all you need to create an account in our site."
     },
     "technology": {
       "t1": "React",
@@ -86,23 +86,23 @@
       "t4": "Express",
       "t5": "Firebase",
       "t6": "Bootstrap",
-      "t7": "Sweetalert",
+      "t7": "",
       "t8": "React Router",
-      "t9": "React Hook Form",
+      "t9": "",
       "t10": ""
     },
-    "liveSite": "https://auto-pro-luxurious-car.web.app/",
-    "clientLink": "https://github.com/Rasalahmad/Auto-Pro-car-service-client-site",
-    "serverLink": "https://github.com/Rasalahmad/Auto-Pro-server-site"
+    "liveSite": "https://paharica-health-care.web.app/",
+    "clientLink": "https://github.com/Rasalahmad/Phararica-health-care",
+    "serverLink": ""
   },
   {
     "id": "106",
-    "name": "Auto-Pro Luxurious Car",
-    "img": "https://i.ibb.co/dQ2G0nT/autopro.png",
-    "ss1": "https://i.ibb.co/CVzysyc/ss2.png",
-    "ss2": "https://i.ibb.co/McSwZRK/ss3.png",
-    "ss3": "https://i.ibb.co/bHZDcJ0/ss1.png",
-    "description": "This is a car selling website named AUTOPRO. In This website you can purchase world best cars with best price.",
+    "name": "Ethnic Group School",
+    "img": "https://i.ibb.co/7Vn8bPy/school.png",
+    "ss1": "https://i.ibb.co/9Y4pCqC/school1.png",
+    "ss2": "https://i.ibb.co/SrZmbd5/school3.png",
+    "ss3": "https://i.ibb.co/XD4cNf6/school2.png",
+    "description": "This is school with ethnic group bandarban. People can take a service with low cost and can get best output",
     "feature": {
       "ft1": "Have a dashboard where based on the user and admin role the menu will change",
       "ft2": "After login or creating an account a user can place an order, manage his orders and post a review",
@@ -112,19 +112,83 @@
       "ft6": "User also can see his/her all order in my order page"
     },
     "technology": {
-      "t1": "React",
-      "t2": "MongoDB",
-      "t3": "Node",
-      "t4": "Express",
-      "t5": "Firebase",
+      "t1": "HTML",
+      "t2": "CSS",
+      "t3": "JavaScript",
+      "t4": "",
+      "t5": "",
       "t6": "Bootstrap",
-      "t7": "Sweetalert",
-      "t8": "React Router",
-      "t9": "React Hook Form",
+      "t7": "",
+      "t8": "",
+      "t9": "",
       "t10": ""
     },
-    "liveSite": "https://auto-pro-luxurious-car.web.app/",
-    "clientLink": "https://github.com/Rasalahmad/Auto-Pro-car-service-client-site",
-    "serverLink": "https://github.com/Rasalahmad/Auto-Pro-server-site"
+    "liveSite": "https://gallant-curran-6cfba9.netlify.app/",
+    "clientLink": "https://github.com/Rasalahmad/EGC-school",
+    "serverLink": ""
+  },
+  {
+    "id": "106",
+    "name": "HONDA CRB",
+    "img": "https://i.ibb.co/3SBZwSm/honda1.png",
+    "ss1": "https://i.ibb.co/ZcZC1TN/honda2.png",
+    "ss2": "https://i.ibb.co/MSQHJrP/honda3.png",
+    "ss3": "https://i.ibb.co/rH7BcwN/honda4.png",
+    "description": "This is school with ethnic group bandarban. People can take a service with low cost and can get best output",
+    "feature": {
+      "ft1": "Have a dashboard where based on the user and admin role the menu will change",
+      "ft2": "After login or creating an account a user can place an order, manage his orders and post a review",
+      "ft3": "However, an admin can manage all orders, add or remove a product and make a new admin. Admin email : admin@admin.com and password: 123456",
+      "ft4": "User can buy a product form this site providing his/her address.",
+      "ft5": "Have different functionality for both user and admin",
+      "ft6": "User also can see his/her all order in my order page"
+    },
+    "technology": {
+      "t1": "HTML",
+      "t2": "CSS",
+      "t3": "JavaScript",
+      "t4": "",
+      "t5": "",
+      "t6": "Bootstrap",
+      "t7": "",
+      "t8": "",
+      "t9": "",
+      "t10": ""
+    },
+    "liveSite": "https://honda-cbr-bootstrap-ah.netlify.app/",
+    "clientLink": "https://github.com/Rasalahmad/Honda-CRB-Bootstrap",
+    "serverLink": ""
+  },
+  {
+    "id": "106",
+    "name": "Covid-19 Live Tracker",
+    "img": "https://i.ibb.co/pZmBTVY/Screenshot-85.png",
+    "ss1": "https://i.ibb.co/pZmBTVY/Screenshot-85.png",
+    "ss2": "https://i.ibb.co/JyqVbC8/Screenshot-84.png",
+    "ss3": "https://i.ibb.co/gDpCR23/Screenshot-83.png",
+    "description": "This is a covid-19 live tracing website where user can find his courtry's covid-19's update. Also user can find whole world covid 19 death number",
+    "feature": {
+      "ft1": "Have a dashboard where based on the user and admin role the menu will change",
+      "ft2": "After login or creating an account a user can place an order, manage his orders and post a review",
+      "ft3": "However, an admin can manage all orders, add or remove a product and make a new admin. Admin email : admin@admin.com and password: 123456",
+      "ft4": "User can buy a product form this site providing his/her address.",
+      "ft5": "Have different functionality for both user and admin",
+      "ft6": "User also can see his/her all order in my order page"
+    },
+    "technology": {
+      "t1": "HTML",
+      "t2": "CSS",
+      "t3": "JavaScript",
+      "t4": "",
+      "t5": "",
+      "t6": "Bootstrap",
+      "t7": "",
+      "t8": "",
+      "t9": "",
+      "t10": ""
+    },
+    "liveSite": "https://live-covid19-update-rasalahmad.netlify.app/",
+    "clientLink": "https://github.com/Rasalahmad/Covid-19-Teacker",
+    "serverLink": ""
   }
 ]
