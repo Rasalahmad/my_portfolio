@@ -16,7 +16,7 @@ const Skills = () => {
     }, [])
     return (
         <div data-aos="fade-right">
-            <h1 className='text-center my-5'>SKILLS</h1>
+            <h1 className='my-5'>SKILLS</h1>
             <Box className="skills-icons">
                 <img src={icon1} alt="" />
                 <img src={icon2} alt="" />

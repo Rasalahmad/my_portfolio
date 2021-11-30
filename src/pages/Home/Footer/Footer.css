@@ -1,0 +1,13 @@
+.fab {
+  margin-right: 20px;
+  color: white;
+  font-size: 30px;
+}
+.footer-container {
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  margin-top: 100px;
+  padding: 10px;
+  border: 1px solid white;
+}

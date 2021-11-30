@@ -1,0 +1,12 @@
+.education-details {
+  border-left: 2px solid white;
+}
+.education-single {
+  margin-left: 40px;
+}
+.education-single h5 {
+  display: inline;
+  background-color: gray;
+  padding: 3px 8px;
+  border-radius: 30px;
+}

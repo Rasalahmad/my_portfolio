@@ -2,6 +2,7 @@ import { Button, Container, Grid } from '@mui/material';
 import { Box } from '@mui/system';
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router';
+import './ProjectDetails.css';
 
 const ProjectDetails = () => {
     const { id } = useParams()
@@ -54,20 +55,20 @@ const ProjectDetails = () => {
                 </Grid>
                 <Grid item xs={12} sm={12} md={6} sx={{ textAlign: 'right' }}>
                     <h2 className="my-4" style={{ color: 'deeppink' }}>Technology</h2>
-                    <p>{project?.technology?.t1}</p>
-                    <p>{project?.technology?.t2}</p>
-                    <p>{project?.technology?.t3}</p>
-                    <p>{project?.technology?.t4}</p>
-                    <p>{project?.technology?.t5}</p>
-                    <p>{project?.technology?.t6}</p>
-                    <p>{project?.technology?.t7}</p>
-                    <p>{project?.technology?.t8}</p>
-                    <p>{project?.technology?.t9}</p>
-                    <p>{project?.technology?.t10}</p>
-                    <p>{project?.technology?.t11}</p>
+                    <p className="technology">{project?.technology?.t1}</p>
+                    <p className="technology">{project?.technology?.t2}</p>
+                    <p className="technology">{project?.technology?.t3}</p>
+                    <p className="technology">{project?.technology?.t4}</p>
+                    <p className="technology">{project?.technology?.t5}</p>
+                    <p className="technology">{project?.technology?.t6}</p>
+                    <p className="technology">{project?.technology?.t7}</p>
+                    <p className="technology">{project?.technology?.t8}</p>
+                    <p className="technology">{project?.technology?.t9}</p>
+                    <p className="technology">{project?.technology?.t10}</p>
+                    <p className="technology">{project?.technology?.t11}</p>
                 </Grid>
             </Grid>
-            <Box sx={{ display: 'flex', justifyContent: 'space-evenly', m: '50px' }}>
+            <Box className="buttons" sx={{ display: 'flex', justifyContent: 'space-evenly', m: '50px' }}>
                 <a href={project?.liveSite} target="_blank">
                     <Button sx={{ mx: '10px', background: 'deeppink' }} variant="contained" >
                         Live Demo

@@ -1,0 +1,12 @@
+.technology {
+  background-color: rgb(105, 105, 204);
+  color: #fff;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+.buttons a {
+  text-decoration: none;
+}
+.buttons a :hover {
+  background-color: blue;
+}

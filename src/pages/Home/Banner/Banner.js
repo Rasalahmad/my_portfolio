@@ -19,7 +19,7 @@ const Banner = () => {
                     <h1>RASAL AHMAD</h1>
                     <h3>I Am A <p style={{ color: 'deeppink' }}> <Typewriter
                         options={{
-                            strings: ['Junior Full Stack Developer', 'Graphic Designer'],
+                            strings: ['Junior Full Stack Developer', 'Graphics Designer'],
                             autoStart: true,
                             loop: true,
                         }}
