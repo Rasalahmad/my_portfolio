@@ -99,10 +99,10 @@ const Banner = () => {
         }}
       />
       <Box sx={{ width: "80%", m: "auto" }}>
-        <Grid container spacing={2} sx={{ pt: "100px" }}>
+        <Grid container spacing={2} sx={{ pt: "50px" }}>
           <Grid item xs={12} sm={12} md={6}>
             <img
-              style={{ width: "400px", borderRadius: "50%" }}
+              className="profilePic"
               src={ProfilePic}
               alt="Profile"
             />
