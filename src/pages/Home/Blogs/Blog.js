@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Grid,
   Card,
@@ -7,18 +8,18 @@ import {
   CardActions,
   Button,
 } from "@mui/material";
-import React from "react";
-import { Link } from "react-router-dom";
-import "./Project.css";
 
-const Project = ({ project }) => {
-  const { img, name, description, id } = project;
-  // console.log(feature)
+const Blog = ({ blog }) => {
+  const { title, desc, img, link } = blog;
   return (
-    <Grid item xs={12} sm={6} md={4} data-aos="fade-left">
+    <Grid item xs={12} sm={6} md={4}>
       <Card
         className="cardContainer"
-        sx={{ maxWidth: 345, backgroundColor: "black", color: "white" }}
+        sx={{
+          maxWidth: 345,
+          backgroundColor: "black",
+          color: "white",
+        }}
       >
         <CardMedia
           component="img"
@@ -28,20 +29,22 @@ const Project = ({ project }) => {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            {name}
+            {title}
           </Typography>
           <Typography variant="body2" color="text.white">
-            {description}
+            {desc.slice(0, 150)}
           </Typography>
         </CardContent>
         <CardActions>
-          <Link to={`/project/${id}`}>
-            <Button size="small">Details</Button>
-          </Link>
+          <Button size="small">
+            <a href={link} target="_blank" rel="noreferrer">
+              READ NOW
+            </a>
+          </Button>
         </CardActions>
       </Card>
     </Grid>
   );
 };
 
-export default Project;
+export default Blog;

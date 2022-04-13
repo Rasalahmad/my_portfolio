@@ -1,6 +1,9 @@
 .cardContainer {
   border: 1px solid white;
+  box-shadow: 15px 12px 17px -1px rgba(79, 79, 79, 1);
+  -webkit-box-shadow: 15px 12px 17px -1px rgba(79, 79, 79, 1);
+  -moz-box-shadow: 15px 12px 17px -1px rgba(79, 79, 79, 1);
 }
 .cardContainer:hover {
-  box-shadow: 10px 10px 10px white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
