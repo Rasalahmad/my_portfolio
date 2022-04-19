@@ -12,7 +12,7 @@ import {
 const Blog = ({ blog }) => {
   const { title, desc, img, link } = blog;
   return (
-    <Grid item xs={12} sm={6} md={4}>
+    <Grid item xs={12} sm={6} md={4} data-aos="fade-right" id="blog">
       <Card
         className="cardContainer"
         sx={{

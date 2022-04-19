@@ -1,23 +1,25 @@
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import './App.css';
-import About from './pages/Home/About/About';
-import Contact from './pages/Home/Contact/Contact';
-import Footer from './pages/Home/Footer/Footer';
-import Home from './pages/Home/Home/Home';
-import Navbar from './pages/Home/Navbar/Navbar';
-import ProjectDetails from './pages/Home/ProjectDetails/ProjectDetails';
-import Projects from './pages/Home/Projects/Projects';
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import "./App.css";
+import About from "./pages/Home/About/About";
+import Contact from "./pages/Home/Contact/Contact";
+import Footer from "./pages/Home/Footer/Footer";
+import Home from "./pages/Home/Home/Home";
+import Navbar from "./pages/Home/Navbar/Navbar";
+import ProjectDetails from "./pages/Home/ProjectDetails/ProjectDetails";
+import Projects from "./pages/Home/Projects/Projects";
+import Whatsapp from "./Whatsapp";
 
 function App() {
   return (
     <div className="">
       <BrowserRouter>
         <Navbar></Navbar>
+        <Whatsapp />
         <Switch>
-          <Route exact path='/'>
+          <Route exact path="/">
             <Home></Home>
           </Route>
-          <Route path='/home'>
+          {/* <Route path='/home'>
             <Home></Home>
           </Route>
           <Route path='/about'>
@@ -28,8 +30,8 @@ function App() {
           </Route>
           <Route path='/contact'>
             <Contact></Contact>
-          </Route>
-          <Route path='/project/:id'>
+          </Route> */}
+          <Route path="/project/:id">
             <ProjectDetails></ProjectDetails>
           </Route>
         </Switch>

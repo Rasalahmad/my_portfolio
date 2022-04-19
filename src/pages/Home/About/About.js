@@ -11,7 +11,7 @@ const About = () => {
     Aos.init({ duration: "1200" });
   }, []);
   return (
-    <Box sx={{ mt: "100px" }}>
+    <Box sx={{ mt: "100px" }} id="about">
       <Box sx={{ width: "90%", m: "auto" }}>
         <h1 className="my-5 text-center">ABOUT ME</h1>
         <Grid container spacing={2} data-aos="fade-left">
@@ -28,12 +28,19 @@ const About = () => {
                 <p>Skill: FULL STACK</p>
                 <p>Experience: 1 year</p>
                 <p>Language: Bangla, English</p>
-                <p>Condition: Available</p>
+                <p>Condition: ..........</p>
               </Grid>
             </Grid>
           </Grid>
-          <Grid item xs={12} sm={12} md={6}>
-            <Grid container spacing={2} data-aos="fade-right">
+          <Grid
+            item
+            xs={12}
+            sm={12}
+            md={6}
+            data-aos="fade-right"
+            style={{ userSelect: "none" }}
+          >
+            <Grid container spacing={2}>
               <Grid item xs={4} sm={4} md={6}>
                 <Box className="experience-container">
                   <h1>1+</h1>

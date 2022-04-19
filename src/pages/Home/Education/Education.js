@@ -10,7 +10,7 @@ const Education = () => {
     Aos.init({ duration: "1200" });
   }, []);
   return (
-    <div>
+    <div id="education">
       <h1
         className="text-center"
         style={{ marginTop: "100px", marginBottom: "100px" }}

@@ -77,7 +77,7 @@ const Skills = () => {
   }, []);
 
   return (
-    <div>
+    <div id="skill">
       <h1
         style={{
           textAlign: "center",

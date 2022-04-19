@@ -11,3 +11,13 @@
   color: white !important;
   border-radius: 30px;
 }
+
+.whatsappContainer {
+  display: flex;
+  align-items: center;
+}
+
+.whatsapplink {
+  text-decoration: none;
+  color: #fff;
+}

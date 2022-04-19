@@ -17,7 +17,7 @@ const Projects = () => {
   }, []);
   console.log(projects);
   return (
-    <Box sx={{ width: "90%", m: "auto" }}>
+    <Box sx={{ width: "90%", m: "auto" }} id="projects">
       <h2
         className="text-center"
         style={{ marginTop: "100px", marginBottom: "100px" }}
