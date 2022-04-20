@@ -5,3 +5,121 @@
   margin: 20px 15px;
   background-color: rgba(50, 50, 50);
 }
+
+.meter {
+  height: 10px;
+  position: relative;
+  background: #f3efe6;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.meter span {
+  display: block;
+  height: 100%;
+}
+
+.html {
+  background-color: blue;
+  animation: html 3s ease-in-out;
+  animation-fill-mode: both;
+  border-radius: 10px;
+}
+
+.css {
+  background-color: rgb(26, 255, 0);
+  animation: css 3s ease-in-out;
+  animation-fill-mode: both;
+  border-radius: 10px;
+}
+
+.js {
+  background-color: rgb(0, 173, 253);
+  animation: js 3s ease-in-out;
+  animation-fill-mode: both;
+  border-radius: 10px;
+}
+.ts {
+  background-color: rgb(253, 110, 0);
+  animation: ts 3s ease-in-out;
+  animation-fill-mode: both;
+  border-radius: 10px;
+}
+
+.react {
+  background-color: rgb(253, 0, 118);
+  animation: react 3s ease-in-out;
+  animation-fill-mode: both;
+  border-radius: 10px;
+}
+
+.redux {
+  background-color: rgb(253, 0, 215);
+  animation: redux 3s ease-in-out;
+  animation-fill-mode: both;
+  border-radius: 10px;
+}
+.native {
+  background-color: rgb(0, 253, 173);
+  animation: native 3s ease-in-out;
+  animation-fill-mode: both;
+  border-radius: 10px;
+}
+
+@keyframes html {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes js {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes react {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 65%;
+  }
+}
+@keyframes redux {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@keyframes native {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@keyframes ts {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 45%;
+  }
+}

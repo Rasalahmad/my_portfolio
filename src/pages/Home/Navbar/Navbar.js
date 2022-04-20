@@ -103,9 +103,6 @@ export default function Navbar() {
               <a className="navItem" href="#blog">
                 Blogs
               </a>
-              <a className="navItem" href="#contact">
-                Contact Me
-              </a>
               {/* <NavLink className={navItem} to="/home">
                 <Button color="inherit">Home</Button>
               </NavLink>

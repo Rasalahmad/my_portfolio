@@ -1,5 +1,5 @@
-import { Grid, Box } from "@mui/material";
 import React, { useEffect } from "react";
+import { Grid, Box } from "@mui/material";
 import Education from "../Education/Education";
 import Skills from "../Skills/Skills";
 import "./About.css";
@@ -32,15 +32,8 @@ const About = () => {
               </Grid>
             </Grid>
           </Grid>
-          <Grid
-            item
-            xs={12}
-            sm={12}
-            md={6}
-            data-aos="fade-right"
-            style={{ userSelect: "none" }}
-          >
-            <Grid container spacing={2}>
+          <Grid item xs={12} sm={12} md={6} style={{ userSelect: "none" }}>
+            <Grid container spacing={2} data-aos="fade-right">
               <Grid item xs={4} sm={4} md={6}>
                 <Box className="experience-container">
                   <h1>1+</h1>

@@ -1,5 +1,5 @@
-import { Box } from "@mui/system";
 import React, { useEffect } from "react";
+import { Box } from "@mui/system";
 import Carousel from "react-elastic-carousel";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
@@ -8,11 +8,6 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import "./Skills.css";
-import icon1 from "../../../images/icon-1.png";
-import icon2 from "../../../images/icon-2.png";
-import icon3 from "../../../images/icon-3.png";
-import icon4 from "../../../images/icon4.png";
-import icon5 from "../../../images/icon-5.png";
 import webIcon from "../../../images/web-icon.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -29,18 +24,21 @@ const reviews = [
     id: 101,
     name: "WEB DEVELOPMENT",
     img: webIcon,
-    tech1: ">> HTML/CSS",
+    tech1: ">> HTML",
     tech2: ">> JavaScript",
     tech3: ">> TypeScript",
     tech4: ">> React",
     tech5: ">> Redux",
     tech6: ">> React Native",
+    tech7: ">> CSS",
+    html: "html",
   },
   {
     id: 102,
     name: "IOS DEVELOPMENT",
     img: webIcon,
-    tech1: ">> HTML/CSS",
+    tech1: ">> HTML",
+    tech7: ">> CSS",
     tech2: ">> JavaScript",
     tech3: ">> TypeScript",
     tech4: ">> React",
@@ -51,7 +49,8 @@ const reviews = [
     id: 103,
     name: "ANDROID DEVELOPMENT",
     img: webIcon,
-    tech1: ">> HTML/CSS",
+    tech1: ">> HTML",
+    tech7: ">> CSS",
     tech2: ">> JavaScript",
     tech3: ">> TypeScript",
     tech4: ">> React",
@@ -62,7 +61,8 @@ const reviews = [
     id: 104,
     name: "WEB DESIGN",
     img: webIcon,
-    tech1: ">> HTML/CSS",
+    tech1: ">> HTML",
+    tech7: ">> CSS",
     tech2: ">> JavaScript",
     tech3: ">> TypeScript",
     tech4: ">> React",
@@ -94,7 +94,7 @@ const Skills = () => {
             style={{
               marginRight: "35px",
               width: "300px",
-              height: "300px",
+              // height: "300px",
               background: "#292222",
               color: "#ffffff",
             }}
@@ -120,12 +120,62 @@ const Skills = () => {
               </Box>
               <Box sx={{ px: "20px" }}>
                 <Typography variant="h6">{review?.name}</Typography>
-                <Typography variant="body2">{review?.tech1}</Typography>
-                <Typography variant="body2">{review?.tech2}</Typography>
-                <Typography variant="body2">{review?.tech3}</Typography>
-                <Typography variant="body2">{review?.tech4}</Typography>
-                <Typography variant="body2">{review?.tech5}</Typography>
-                <Typography variant="body2">{review?.tech6}</Typography>
+                <Typography variant="body2">
+                  {review?.tech1}
+                  <div className="meter">
+                    <span style={{ width: "100%" }}>
+                      <span className="html"></span>
+                    </span>
+                  </div>
+                </Typography>
+                <Typography variant="body2">
+                  {review?.tech7}
+                  <div className="meter">
+                    <span style={{ width: "100%" }}>
+                      <span className="css"></span>
+                    </span>
+                  </div>
+                </Typography>
+                <Typography variant="body2">
+                  {review?.tech2}
+                  <div className="meter">
+                    <span style={{ width: "100%" }}>
+                      <span className="js"></span>
+                    </span>
+                  </div>
+                </Typography>
+                <Typography variant="body2">
+                  {review?.tech3}
+                  <div className="meter">
+                    <span style={{ width: "100%" }}>
+                      <span className="ts"></span>
+                    </span>
+                  </div>
+                </Typography>
+                <Typography variant="body2">
+                  {review?.tech4}
+                  <div className="meter">
+                    <span style={{ width: "100%" }}>
+                      <span className="react"></span>
+                    </span>
+                  </div>
+                </Typography>
+                <Typography variant="body2">
+                  {review?.tech5}
+                  <div className="meter">
+                    <span style={{ width: "100%" }}>
+                      <span className="redux"></span>
+                    </span>
+                  </div>
+                </Typography>
+                <Typography variant="body2">
+                  {review?.tech6}
+                  <div className="meter">
+                    <span style={{ width: "100%" }}>
+                      <span className="native"></span>
+                    </span>
+                  </div>
+                </Typography>
               </Box>
             </Box>
             <CardContent>
