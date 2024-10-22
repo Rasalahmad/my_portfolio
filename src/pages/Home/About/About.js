@@ -26,7 +26,7 @@ const About = () => {
               </Grid>
               <Grid item xs={6} sm={6} md={6}>
                 <p>Skill: FULL STACK</p>
-                <p>Experience: 1 year</p>
+                <p>Experience: 2 year +</p>
                 <p>Language: Bangla, English</p>
                 <p>Condition: ..........</p>
               </Grid>
@@ -36,7 +36,7 @@ const About = () => {
             <Grid container spacing={2} data-aos="fade-right">
               <Grid item xs={4} sm={4} md={6}>
                 <Box className="experience-container">
-                  <h1>1+</h1>
+                  <h1>2+</h1>
                   <p>Year experience</p>
                 </Box>
               </Grid>
